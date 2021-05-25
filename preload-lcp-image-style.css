@@ -1,16 +1,6 @@
 .banner {
-  position: relative;
-  height: 300px;
+  height: 530px;
   width: 100%;
-  overflow: hidden;
-}
-
-.img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 100%;
-  min-width: 100%;
-  background-image: url("https://source.unsplash.com/random/800x300");
+  background-image: url("./img/banner.jpg");
+  background-size: cover;
 }
