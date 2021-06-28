@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Resource Hints Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="preload"
+      as="font"
+      type="foo"
+      crossorigin="anonymous"
+      href="./fonts/roboto-regular.woff2"
+    />
+
+    <!-- Added Bootstrap & jQuery as render-blocking resources -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lorem Ipsum</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt animi
+        aspernatur reiciendis officia odio.
+      </p>
+      <p>
+        Quisquam illo maiores quis nam voluptate, nisi atque accusantium
+        voluptas aliquid, repellat omnis dolorem molestiae sunt cumque natus
+        laudantium, labore sequi. Sint explicabo aperiam eligendi commodi!
+      </p>
+    </div>
+  </body>
+</html>
